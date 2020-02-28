@@ -1,0 +1,36 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "semi": "error",
+        "default-case": "error",
+        "no-console": "warn",
+        "dot-notation": "warn",
+        "max-classes-per-file": "warn",
+        "no-caller": "error",
+        "no-magic-numbers": "error",
+        "no-multi-spaces": "warn",
+        "array-bracket-spacing": ["warn", "never"],
+        "block-spacing": "warn",
+        "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
+        "comma-dangle": ["warn", "only-multiline"],
+        "func-call-spacing": ["warn", "never"]
+    }
+}
